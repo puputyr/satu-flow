@@ -11,7 +11,6 @@ import {
   Users
 } from 'lucide-react';
 
-// --- Reusable UI Components (Supaya tidak perlu file terpisah) ---
 
 const Button = ({ children, variant = 'primary', className = '', ...props }: any) => {
   const baseStyle = "inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none rounded-lg";
